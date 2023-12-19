@@ -1,0 +1,42 @@
+PYTHON\hw1> python nl.py test.txt
+1       sdgfd
+2       ds
+3       f
+4       sdf
+5       gsd
+6       v
+7       ds
+8       fg
+9       ds
+10      vsd
+11      fv
+12      dsf
+13      vds
+14      vs
+15      df
+16      v
+17      sdf
+18      v
+19      dfs
+20      vd
+21      f
+22      vd
+23      v
+24      sd
+25      v
+26      ds
+27      v
+28      ds
+
+
+PYTHON\hw1> python nl.py
+1331
+1       1331
+adads
+2       adads
+ rs
+3        rs
+
+4
+
+5
