@@ -1,14 +1,13 @@
+import click
 import sys
 
 
+@click.command()
+@click.argument('file', type=click.File('r'), default=sys.stdin)
 def nl(file):
-    f = open(file, 'r') if file else sys.stdin
-    for num, line in enumerate(f, 1):
-        print(f"{num}\t{line}", end='')
+    for num, line in enumerate(file, 1):
+        click.echo(f"{num}\t{line}", nl=False)
 
 
 if __name__ == '__main__':
-    if len(sys.argv) > 1:
-        nl(sys.argv[1])
-    else:
-        nl(None)
+    nl()

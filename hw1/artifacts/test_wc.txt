@@ -1,0 +1,20 @@
+PYTHON\hw1> python wc.py test.txt test2.txt
+16      16      25      test.txt
+6       9       13      test2.txt
+22      25      38      total
+
+
+
+PYTHON\hw1> python wc.py test2.txt
+6       9       13      test2.txt
+
+
+
+PYTHON\hw1> python wc.py
+abc
+d e
+f
+
+g
+^Z
+5       5       8
