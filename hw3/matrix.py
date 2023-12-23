@@ -1,4 +1,9 @@
-class Matrix:
+class HashMixin:
+    def __hash__(self):
+        return sum(num for row in self.matrix for num in row) % 6
+
+
+class Matrix(HashMixin):
     def __init__(self, matrix):
         self.matrix = matrix
         self.rows = len(matrix)
